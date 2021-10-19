@@ -88,7 +88,7 @@ July, 2021	(1032, 27)
 August, 2021	(946, 25)
 September+ 2021	(77, 22)
 
-This is the output we receive when we run ./part4.sh on terminal
+This is the output we receive when we run ./part4.sh on terminal (after chmod a+x part4.sh)
 As we can see, the above output is in the form of (total_comments, Median length of comments).
 The mapper basically searches for a particular year and month and then produces the output in the form of months,commentlength and then the reducer4.py consolidates this data and finally produces the main answer in the form of no_of_answers,median_comment_length.
 
