@@ -1,0 +1,27 @@
+The following commands were executed in order to complete part 2:
+
+sed -i 's/"/ /g' Badges.xml
+	This command removed all the double quotation marks (") in order to get all the names of badges independently, which was earlier not possible because it was attatched to Name=" ".
+	
+awk '{print $7}' Badges.xml > output.txt
+	This line is used to store the names of all the Badges (Which are now in row 7 of Badges.xml)  in a new file called output.txt . We will be analyzing this data.
+	
+sort -u output.txt > Unique_Badges.txt
+	This line is used to finish the redundancy in the names of Badges It removes all the duplicate names and we get a flie called Unique_Badges.txt which stores all the unique Badge names.
+	
+wc -w Unique_Badges.txt > No_Of_Unique_Badges.txt
+	This line counts that how many uniqu Badge names are there and stores the number in the file No_Of_Unique_Badges.txt
+	
+cat output.txt | xargs -n1 | sort | uniq -c > Badge_Count.txt
+	This line traverses output.txt and tells us that there are how many different users associated with each individual Badge and stores the data in Badge_Count.txt
+	
+echo "It took $SECONDS seconds for this script to execute."
+	This command tells us that how many seconds it took to execute the script.
+
+
+
+The Script of all these commands is made in a file named : part2.sh which is also placed in this folder
+To run the script follow the following commands:
+
+chmod u+x part2.sh
+./part2.sh
