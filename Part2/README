@@ -1,4 +1,4 @@
-The following commands were executed in order to complete part 2:
+The following commands were executed in order to complete Part 2:
 
 sed -i 's/"/ /g' Badges.xml
 	This command removed all the double quotation marks (") in order to get all the names of badges independently, which was earlier not possible because it was attatched to Name=" ".
