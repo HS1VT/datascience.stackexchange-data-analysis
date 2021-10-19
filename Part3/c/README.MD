@@ -1,6 +1,6 @@
 Most User activity: 16th hour (3916 posts)
 Least User activity: 4th hour (1346 posts)
-Ratio of peak to lowest user activity = (3916)/(1346) = 2.90
+Ratio of peak to lowest user activity = (3916)/(1346) ~ 2.90
 
 Answer:
 
