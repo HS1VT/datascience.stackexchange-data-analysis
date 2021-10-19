@@ -29,7 +29,7 @@ a. Analyze the popularity of tags (how many posts used each of the tags). Note t
 
 b. Calculate the View Count Distribution (How many posts were viewed a given number of times). Which theoretical distribution does it look like? Can you identify the top 10 most viewed posts on DataScienceExchange? You can also use their website to verify your answers. Please summarize the posts briefly, i.e. what were they about. 
 
-c. Calculate the number of Posts per Hour of the day, for each of the 24 hours. (Tells us how the user activity varies.) What is the ratio of the peak to lowest user activity per hour? Is there an opportunity for Cloud deployment for Stack Exchange? How much can they save by going to cloud? <Hint: remember the example of Rackspace's mail servers discussed in the class>
+c. Calculate the number of Posts per Hour of the day, for each of the 24 hours. (Tells us how the user activity varies.) What is the ratio of the peak to lowest user activity per hour? Is there an opportunity for Cloud deployment for Stack Exchange? How much can they save by going to cloud?
 
 Part 4 Using the Comments.xml file, write Map-Reduce Jobs to create summary tables (plot wherever possible) for the total Number of Comments and Median of Comment Length by Month from May 2014 to Sep 2021.
 
