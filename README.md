@@ -1,6 +1,8 @@
 # datascience.stackexchange-data-analysis
 This repo analyses user data from datascience.stackexchange from 2014 to Sep'2021 and presents various insights on the data.
 
+Tools/technologies used: MapReduce, Apache Hadoop, Amazon EMR
+
 The dataset is available at:
 https://archive.org/download/stackexchange/datascience.stackexchange.com.7z
 
